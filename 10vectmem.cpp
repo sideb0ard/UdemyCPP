@@ -22,5 +22,10 @@ int main() {
 
         numbers.push_back(i);
     }
+
+    numbers.clear();
+    cout << "Size: " << numbers.size() << endl;
+    cout << "Capacity: " << numbers.capacity() << endl;
+
     return 0;
 }

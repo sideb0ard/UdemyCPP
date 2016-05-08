@@ -1,4 +1,3 @@
-#include <iostream>
 #include "zoomlist.hpp"
 #include "zoom.hpp"
 
@@ -16,7 +15,6 @@ void ZoomList::add(const Zoom& zoom) {
 
   m_scale *= zoom.scale;
 
-  cout << m_xCenter << ", " << m_yCenter << ", " << m_scale << endl;
 }
 
 pair<double, double> ZoomList::doZoom(int x, int y) {
